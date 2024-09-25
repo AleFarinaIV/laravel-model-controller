@@ -10,6 +10,15 @@
 
 <body>
 
+    @include('partials.header')
+
+    <main>
+        @yield('name')
+    </main>
+
+    @include('partials.footer')
+
+
 </body>
 
 </html>
